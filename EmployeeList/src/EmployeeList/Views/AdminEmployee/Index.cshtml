@@ -1,0 +1,59 @@
+﻿@model List<Employee>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 mt-5">
+        <a href="@Url.Action("Add","AdminEmployee")" class="btn btn-success btn-block">Personel Ekle</a>
+        <hr />
+
+        @if (TempData["employeeMessage"] != null)
+        {
+            <div class="p-3 mb-2 bg-secondary text-white"><h5>@TempData["employeeMessage"]</h5></div>
+        }
+
+        <input class="form-control mb-3" id="searchEmployee" type="text" placeholder="Personel Ara...">
+
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Telefon</th>
+                    <th>Doğum Tarihi</th>
+                    <th>Departman</th>
+                    <th>Yönetici</th>
+                    <th>Düzenle</th>
+                    <th>Sil</th>
+                </tr>
+            </thead>
+            <tbody id="tableEmpBody">
+                @foreach (var employee in Model)
+                {
+                    <tr>
+                        <td>@employee.FirstName</td>
+                        <td>@employee.LastName</td>
+                        <td>@employee.Phone</td>
+                        <td>@((employee.BirthDate != null) ? (((DateTime)employee.BirthDate).ToString("dd.MM.yyyy")) : "Belirtilmemiş")</td>
+                        <td>@((employee.Department != null) ? employee.Department.DepartmentName : "Belirtilmemiş")</td>
+                        <td>@((employee.ReportsTo != null) ? employee.ReportsTo.FirstName + " " + employee.ReportsTo.LastName : "Kendisi")</td>
+                        <td><a href="/AdminEmployee/Edit/@employee.EmployeeID" class="btn btn-warning">Düzenle</a></td>
+                        <td><a href="/AdminEmployee/Remove/@employee.EmployeeID" class="btn btn-danger">X</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    //Searchbar script
+    $("#searchEmployee").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#tableEmpBody tr").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
+</script>

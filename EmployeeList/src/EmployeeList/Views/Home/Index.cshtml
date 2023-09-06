@@ -1,0 +1,56 @@
+﻿@model List<Employee>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row content mt-4 ml-4">
+    <div class="col-sm-4">
+        <h3 class="text-center mb-3">Personel Listesi</h3>
+        <input class="form-control" id="searchEmployee" type="text" placeholder="Personel Ara...">
+        <hr />
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Ad Soyad</th>
+                    <th>Telefon</th>
+                </tr>
+            </thead>
+            <tbody id="tableEmpBody">
+                @foreach (var employee in Model)
+                {
+                    <tr class="empListItem" id="@employee.EmployeeID" style="cursor:pointer;">
+                        <td>@employee.FirstName @employee.LastName</td>
+                        <td>@employee.Phone</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-8" id="employeeDetailPartial">
+        @Html.Action("EmployeeDetail")
+    </div>
+</div>
+
+<script>
+    //Searchbar script
+    $("#searchEmployee").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#tableEmpBody tr").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
+
+    //Get employee detail by clicking table
+    $(".empListItem").on("click", function () {
+        var employeeID = $(this).attr("id");
+
+        $.ajax({
+            type: 'Get',
+            url: '/Home/EmployeeDetail/',
+            data: { "id": employeeID },
+            success: function (partialview) {
+                $("#employeeDetailPartial").html(partialview);
+            }
+        });
+    });
+</script>

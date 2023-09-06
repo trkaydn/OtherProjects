@@ -1,0 +1,22 @@
+﻿@model Department
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 mt-5">
+        <form method="post">
+            <h3 class="text-center">Departman Ekle</h3>
+            <hr />
+            <label class="mt-3 mb-3"><strong>Departman Adı:</strong></label>
+            @Html.TextBoxFor(x => x.DepartmentName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.DepartmentName, "", new { @class = "text-danger" })<br />
+            <input type="submit" class="btn btn-success mt-1" value="Kaydet" />
+            <a href="@Url.Action("Index","AdminDepartment")" class="btn btn-danger mt-1">İptal</a>
+        </form>
+    </div>
+</div>
+
+

@@ -1,0 +1,91 @@
+﻿@model Employee
+
+<div class="jumbotron">
+    <h3 class="text-center">Personel Bilgileri</h3>
+    <hr /><br />
+
+    <div class="row mt-5">
+        @if (Model != null)
+        {
+            <div class="col-sm-3">
+
+                @if (Model.Photos.Count() == 0)
+                {
+                    <div class="carousel-inner">
+                        <img class="d-block w-100" src="~/Content/images/nullperson2.png" alt="nullperson2" />
+                    </div>
+                }
+                else if (Model.Photos.Count == 1)
+                {
+                    <div class="carousel-inner">
+                        <img class="d-block w-100" src="@Model.Photos[0].FilePath" alt="nullperson" />
+                    </div>
+                }
+                else
+                {
+                    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+
+                            @foreach (var photo in Model.Photos)
+                            {
+                                <div class="carousel-item">
+                                    <img src="@photo.FilePath" class="d-block w-100" alt="...">
+                                </div>
+                            }
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Önceki</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Sonraki</span>
+                        </a>
+                    </div>
+                }
+            </div>
+
+            <div class="col-sm-2">
+                <h5 class="font-weight-bold">Adı: </h5><br />
+                <h5 class="font-weight-bold">Soyadı: </h5><br />
+                <h5 class="font-weight-bold">Telefon: </h5><br />
+            </div>
+
+            <div class="col-sm-2">
+                <h5>@Model.FirstName</h5><br />
+                <h5>@Model.LastName</h5><br />
+                <h5>@Model.Phone</h5><br />
+            </div>
+
+            <div class="col-sm-2 ml-5">
+                <h5 class="font-weight-bold">Departman: </h5><br />
+                <h5 class="font-weight-bold">Yönetici: </h5><br />
+                <h5 class="font-weight-bold">Doğum Tarihi: </h5><br />
+            </div>
+
+            <div class="col-sm-2">
+                <h5>@((Model.Department != null) ? Model.Department.DepartmentName : "Belirtilmemiş")</h5><br />
+                <h5>@((Model.ReportsTo != null) ? Model.ReportsTo.FirstName + " " + Model.ReportsTo.LastName : "Kendisi")</h5><br />
+                <h5>@((Model.BirthDate != null) ? (((DateTime)Model.BirthDate).ToString("dd.MM.yyyy")) : "Belirtilmemiş")</h5>
+            </div>
+        }
+
+        else
+        {
+            <div class="col-sm-12">
+                <h3 class="text-center">"Personel Listesi" uygulamasına hoş geldiniz.</h3><br />
+                <h3 class="text-center">Başlamak için soldaki tablodan bir personel seçebilirsiniz. </h3>
+            </div>
+        }
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $(".carousel-inner :first-child").addClass("active");
+    });
+
+    $('.carousel').carousel({
+        interval: 2000
+    })
+</script>

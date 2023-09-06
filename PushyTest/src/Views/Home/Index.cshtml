@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<button class="btn btn-primary" id="subs">BİLDİRİMLERİ AÇ</button>
+<button class="btn btn-primary" id="pushyat">BANA PUSHY ATAR MISIN?</button>
+<label>Cihazınızın kimliği: </label>
+<input type="text" id="tokentext">
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+
+
+
+<script type="module">
+
+    //bu pushy kayıt metodunu onclick eventinde yapmamızı istemişler. document ready gibi eventlerde, tarayıcı engelleyebiliyormuş.
+    $('#subs').on('click', function () {
+
+        // Check if the user is registered
+        if (Pushy.isRegistered()) {
+            // Subscribe the user to a topic
+            //Pushy.subscribe('news').catch(function (err) {  //bu özel topic'lere göre kayıt olmaymış ama bizde buna gerek olmıcak
+            //    // Handle subscription errors
+            //    console.error('Subscribe failed:', err);
+            //});
+            alert('zaten bültene kayıtlısın');
+            //return;
+        }
+
+
+        // Add an import if you installed from npm
+        //import Pushy from 'pushy-sdk-web';
+
+        // Register visitor's browser for push notifications
+        Pushy.register({ appId: '62da81bc5f4e0b0e138a511a' }).then(function (deviceToken) {
+            // Print device token to console
+            console.log('Pushy device token: ' + deviceToken);
+            $('#tokentext').val(deviceToken);
+            // Send the token to your backend server via an HTTP GET request
+            //fetch('https://your.api.hostname/register/device?token=' + deviceToken);
+
+            // Succeeded, optionally do something to alert the user
+        }).catch(function (err) {
+            // Handle registration errors
+            console.error(err);
+        });
+    });
+
+
+    $('#pushyat').on('click', function () {
+        $.ajax({
+            type: 'post',
+            url: '/Home/SendSamplePush',
+            data: {
+                'devicetoken': $('#tokentext').val()
+            }
+        });
+    });
+</script>

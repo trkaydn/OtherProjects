@@ -1,0 +1,14 @@
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\bin\Debug\net5.0\InvoiceData.deps.json
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\bin\Debug\net5.0\InvoiceData.runtimeconfig.json
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\bin\Debug\net5.0\InvoiceData.runtimeconfig.dev.json
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\bin\Debug\net5.0\InvoiceData.dll
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\bin\Debug\net5.0\ref\InvoiceData.dll
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\bin\Debug\net5.0\InvoiceData.pdb
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\obj\Debug\net5.0\InvoiceData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\obj\Debug\net5.0\InvoiceData.AssemblyInfoInputs.cache
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\obj\Debug\net5.0\InvoiceData.AssemblyInfo.cs
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\obj\Debug\net5.0\InvoiceData.csproj.CoreCompileInputs.cache
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\obj\Debug\net5.0\InvoiceData.dll
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\obj\Debug\net5.0\ref\InvoiceData.dll
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\obj\Debug\net5.0\InvoiceData.pdb
+C:\Users\Tarik Aydin\Desktop\InvoiceApp\InvoiceData\obj\Debug\net5.0\InvoiceData.genruntimeconfig.cache

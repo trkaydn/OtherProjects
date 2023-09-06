@@ -1,0 +1,36 @@
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.csproj.AssemblyReference.cache
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.AssemblyInfoInputs.cache
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.AssemblyInfo.cs
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.csproj.CoreCompileInputs.cache
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\bin\Debug\net5.0\CreateExam.Data.deps.json
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\bin\Debug\net5.0\CreateExam.Data.dll
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\bin\Debug\net5.0\ref\CreateExam.Data.dll
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\bin\Debug\net5.0\CreateExam.Data.pdb
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.dll
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\obj\Debug\net5.0\ref\CreateExam.Data.dll
+C:\Users\Tarik Aydin\Desktop\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.pdb
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\bin\Debug\net5.0\CreateExam.Data.deps.json
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\bin\Debug\net5.0\CreateExam.Data.dll
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\bin\Debug\net5.0\CreateExam.Data.pdb
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.csproj.AssemblyReference.cache
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.AssemblyInfoInputs.cache
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.AssemblyInfo.cs
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.csproj.CoreCompileInputs.cache
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.dll
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\obj\Debug\net5.0\refint\CreateExam.Data.dll
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.pdb
+D:\Githubda Olmayan Projeler\CreateExam\CreateExam.Data\obj\Debug\net5.0\ref\CreateExam.Data.dll
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\bin\Debug\net5.0\CreateExam.Data.deps.json
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\bin\Debug\net5.0\CreateExam.Data.dll
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\bin\Debug\net5.0\CreateExam.Data.pdb
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.csproj.AssemblyReference.cache
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.AssemblyInfoInputs.cache
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.AssemblyInfo.cs
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.csproj.CoreCompileInputs.cache
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.dll
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\obj\Debug\net5.0\refint\CreateExam.Data.dll
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\obj\Debug\net5.0\CreateExam.Data.pdb
+D:\GitHubOldRepo\CreateExam\src\CreateExam.Data\obj\Debug\net5.0\ref\CreateExam.Data.dll

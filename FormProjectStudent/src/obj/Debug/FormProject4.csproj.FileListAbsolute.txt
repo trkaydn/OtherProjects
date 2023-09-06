@@ -1,0 +1,37 @@
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\bin\Debug\FormProject4.exe.config
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\bin\Debug\FormProject4.exe
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\bin\Debug\FormProject4.pdb
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\obj\Debug\FormProject4.csprojAssemblyReference.cache
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\obj\Debug\FormProject4.Form1.resources
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\obj\Debug\FormProject4.Properties.Resources.resources
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\obj\Debug\FormProject4.csproj.GenerateResource.cache
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\obj\Debug\FormProject4.csproj.CoreCompileInputs.cache
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\obj\Debug\FormProject4.exe
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\obj\Debug\FormProject4.pdb
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\obj\Debug\FormProject4.Form2.resources
+C:\Users\Tarık\Desktop\Projetcs\FormProject4\obj\Debug\FormProject4.frmDuzenle.resources
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\bin\Debug\FormProject4.exe.config
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\bin\Debug\FormProject4.exe
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\bin\Debug\FormProject4.pdb
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\obj\Debug\FormProject4.csprojAssemblyReference.cache
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\obj\Debug\FormProject4.Form1.resources
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\obj\Debug\FormProject4.Form2.resources
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\obj\Debug\FormProject4.frmDuzenle.resources
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\obj\Debug\FormProject4.Properties.Resources.resources
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\obj\Debug\FormProject4.csproj.GenerateResource.cache
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\obj\Debug\FormProject4.csproj.CoreCompileInputs.cache
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\obj\Debug\FormProject4.exe
+C:\Users\Tarik Aydin\Desktop\Projects\FormProjectStudent\obj\Debug\FormProject4.pdb
+D:\Githubda Olmayan Projeler\FormProjectStudent\bin\Debug\FormProject4.exe.config
+D:\Githubda Olmayan Projeler\FormProjectStudent\bin\Debug\FormProject4.exe
+D:\Githubda Olmayan Projeler\FormProjectStudent\bin\Debug\FormProject4.pdb
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.csproj.AssemblyReference.cache
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.csproj.SuggestedBindingRedirects.cache
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.Form1.resources
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.Form2.resources
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.frmDuzenle.resources
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.Properties.Resources.resources
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.csproj.GenerateResource.cache
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.csproj.CoreCompileInputs.cache
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.exe
+D:\Githubda Olmayan Projeler\FormProjectStudent\obj\Debug\FormProject4.pdb

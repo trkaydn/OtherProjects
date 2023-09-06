@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\svn\\YuzTanima\\YuzTanima\\YuzTanima\\YuzTanima.csproj": {}
+  },
+  "projects": {
+    "D:\\svn\\YuzTanima\\YuzTanima\\YuzTanima\\YuzTanima.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\svn\\YuzTanima\\YuzTanima\\YuzTanima\\YuzTanima.csproj",
+        "projectName": "YuzTanima",
+        "projectPath": "D:\\svn\\YuzTanima\\YuzTanima\\YuzTanima\\YuzTanima.csproj",
+        "packagesPath": "C:\\Users\\ozcan\\.nuget\\packages\\",
+        "outputPath": "D:\\svn\\YuzTanima\\YuzTanima\\YuzTanima\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Programs\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ozcan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\gbak\\test": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.6.0.5131, )"
+            },
+            "Emgu.CV.Bitmap": {
+              "target": "Package",
+              "version": "[4.6.0.5131, )"
+            },
+            "Emgu.CV.UI": {
+              "target": "Package",
+              "version": "[4.6.0.5131, )"
+            },
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.6.0.5131, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

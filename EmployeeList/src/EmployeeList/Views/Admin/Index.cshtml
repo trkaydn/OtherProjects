@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row text-center">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 mt-4">
+        <div class="jumbotron">
+            <h1 class="h3 mb-3 font-weight-normal">Personel Listesi</h1>
+            <h1 class="h3 mb-5 font-weight-normal">Admin Paneli</h1>
+
+            <a href="@Url.Action("Index","AdminEmployee")" class="btn btn-lg btn-primary btn-block mt-3">Personelleri Yönetin</a>
+            <a href="@Url.Action("Index","AdminDepartment")" class="btn btn-lg btn-info btn-block mt-3">Departmanları Yönetin</a>
+            <hr /><br />
+            <a href="@Url.Action("Add","AdminEmployee")" class="btn btn-lg btn-primary btn-block mt-3">Personel Ekle</a>
+            <a href="@Url.Action("Add","AdminDepartment")" class="btn btn-lg btn-info btn-block mt-3">Departman Ekle</a>
+            <hr /><br />
+            <button class="changepass btn btn-lg btn-secondary btn-block mt-3">Şifre Değiştir</button>
+            <a href="@Url.Action("Logout","Login")" class="btn btn-lg btn-danger btn-block mt-3">Çıkış Yap</a>
+
+            <p class="mt-5 mb-3 text-muted">
+                &copy; @DateTime.Now.Year Tüm hakları saklıdır,
+                <a href="https://tr.linkedin.com/in/trkaydn">Tarık Aydın</a>
+            </p>
+        </div>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+

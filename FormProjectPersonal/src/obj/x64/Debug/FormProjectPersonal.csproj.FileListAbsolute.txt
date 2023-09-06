@@ -1,0 +1,37 @@
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\bin\x64\Debug\FormProjectPersonal.exe.config
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\bin\x64\Debug\FormProjectPersonal.exe
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\bin\x64\Debug\FormProjectPersonal.pdb
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Form1.resources
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Properties.Resources.resources
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csproj.GenerateResource.cache
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csproj.CoreCompileInputs.cache
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.exe
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.pdb
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csprojAssemblyReference.cache
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Form2.resources
+C:\Users\Tarık\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Form3.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\bin\x64\Debug\FormProjectPersonal.exe.config
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\bin\x64\Debug\FormProjectPersonal.exe
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\bin\x64\Debug\FormProjectPersonal.pdb
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csprojAssemblyReference.cache
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Form1.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Form2.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Form3.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Properties.Resources.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csproj.GenerateResource.cache
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csproj.CoreCompileInputs.cache
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.exe
+C:\Users\Tarık Aydın\Desktop\Projetcs\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.pdb
+D:\Githubda Olmayan Projeler\FormProjectPersonal\bin\x64\Debug\FormProjectPersonal.exe.config
+D:\Githubda Olmayan Projeler\FormProjectPersonal\bin\x64\Debug\FormProjectPersonal.exe
+D:\Githubda Olmayan Projeler\FormProjectPersonal\bin\x64\Debug\FormProjectPersonal.pdb
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csproj.AssemblyReference.cache
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csproj.SuggestedBindingRedirects.cache
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Form1.resources
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Form2.resources
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Form3.resources
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.Properties.Resources.resources
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csproj.GenerateResource.cache
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.csproj.CoreCompileInputs.cache
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.exe
+D:\Githubda Olmayan Projeler\FormProjectPersonal\obj\x64\Debug\FormProjectPersonal.pdb

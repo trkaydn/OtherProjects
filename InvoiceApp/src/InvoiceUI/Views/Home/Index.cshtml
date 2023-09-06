@@ -1,0 +1,43 @@
+﻿@model List<Invoice>
+@{
+    ViewData["Title"] = "Fatura Listesi";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-4">Fatura Listesi</h1>
+    <br />
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Fatura ID</th>
+                <th>Firma Ünvanı</th>
+                <th>Tarih</th>
+                <th>Ürünler</th>
+                <th>Toplam Tutar</th>
+                <th>Sil</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var invoice in Model)
+            {
+                string products = "";
+                double total = 0;
+                @foreach (var product in invoice.Products)
+                {
+                    products += product.ProductName + " " + product.Amount + "&#8378; <br>";
+                    total += product.Amount;
+                }
+
+                <tr>
+                    <td>@invoice.InvoiceID</td>
+                    <td>@invoice.CompanyTitle</td>
+                    <td>@(((DateTime)invoice.InvoiceDate).ToString("dd.MM.yyyy"))</td>
+                    <td>@Html.Raw(products)</td>
+                    <td>@total &#8378;</td>
+                    <td><a href="@Url.Action("DeleteInvoice","Home",new {invoiceId = invoice.InvoiceID })" class="btn btn-danger">X</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="@Url.Action("AddInvoice","Home")" class="btn btn-primary btn-block text-white">Yeni Fatura Girişi</a>
+</div>

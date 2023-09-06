@@ -1,0 +1,38 @@
+﻿@model List<YuzTanima.Models.YuzTanimaModel>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Yüz Kontrolü</h2>
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="files" multiple />
+    <br />
+    <input type="submit" value="Gönder" />
+}
+
+@if (Model!=null && Model.FirstOrDefault()!=null)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Dosya Adı</th>
+                <th>Yüz Var mı?</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+
+            
+                <tr>
+                    <td><img src="@(item.fileaddress)" style="max-height:250px;" /></td>
+                    <td>@(item.YuzlerVarMi ? "Evet" : "Hayır")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

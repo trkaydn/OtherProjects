@@ -1,0 +1,56 @@
+﻿@model AddInvoiceVM
+@{
+    ViewData["Title"] = "Yeni Fatura Girişi";
+}
+
+<h1 class="display-4 text-center mt-5">Yeni Fatura Girişi</h1>
+<br />
+@if (ViewBag.Message != null)
+{
+    <h5 class="text-danger">@ViewBag.Message </h5>
+}
+
+@using (Html.BeginForm("AddInvoice", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+
+        <label>Firma Ünvanı</label>
+        @Html.TextBoxFor(x => x.CompanyTitle, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.CompanyTitle, "", new { @class = "text-danger" })
+        <br />
+
+        <label>Tarih</label>
+        @Html.TextBoxFor(x => x.InvoiceDate, new { @class = "form-control", type = "date" })
+        @Html.ValidationMessageFor(x => x.InvoiceDate, "", new { @class = "text-danger" })
+        <br />
+
+        <div class="row mb-2 addProduct">
+            <div class="col">
+                <label>Ürün Adı</label>
+                <input type="text" name="ProductNames" class="form-control productName" />
+                @Html.ValidationMessageFor(x => x.ProductNames.Count, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col">
+                <label>Tutar (&#8378;)</label>
+                <input type="text" name="ProductAmounts" class="form-control amount" />
+                @Html.ValidationMessageFor(x => x.ProductAmounts, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <a class="btn btn-warning mt-3" id="addBtn">Ürün Ekle</a>
+        <br />
+
+        <button class="btn btn-info mt-3" id="saveBtn">Kaydet</button>
+        <a href="@Url.Action("Index","Home")" class="btn btn-danger mt-3">İptal</a>
+    </div>
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $('#addBtn').on('click', function () {
+        $('.addProduct:last').clone().insertAfter('.addProduct:last');
+        $('.productName:last').val('');
+        $('.amount:last').val('');
+    });
+</script>

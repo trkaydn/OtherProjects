@@ -1,0 +1,19 @@
+﻿@model YuzTanima.Models.YuzTanimaModel
+
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="files" multiple />
+    <button type="submit">Upload</button>
+</form>
+
+
+@if (Model != null)
+{
+    if (Model.YuzlerVarMi)
+    {
+        <h3>Resimde Yüzler Var</h3>
+    }
+    else
+    {
+        <h3>Resimde Yüz Yok</h3>
+    }
+}

@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-title>Çalışan Listesi</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-list>
+    <ion-item *ngFor="let kayit of kayitlar">
+      <ion-label>{{kayit.ad}} - {{kayit.ceptel}} 
+        <ion-button type="button" color="warning" (click)="updateItem(kayit)">Güncelle</ion-button>
+        <ion-button type="button" color="danger" (click)="deleteItem(kayit.id)">Sil</ion-button>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+<ion-button type="submit" (click)="authService.SignOut()" expand="block">Çıkış Yap</ion-button>
+
+
+<ion-fab slot="fixed" vertical="bottom" horizontal="end" style="margin-bottom:50px;">
+    <ion-fab-button (click)="presentAlert()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>

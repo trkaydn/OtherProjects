@@ -1,0 +1,44 @@
+﻿@model EmployeeEditorVM
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 mt-5">
+        <h3 class="text-center">Personel Ekle</h3>
+        <hr />
+        @using (Html.BeginForm("Add", "AdminEmployee", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <label class="mt-2 mb-2"><strong>Adı:</strong></label>
+            @Html.TextBoxFor(x => x.Employee.FirstName, new { @class = "form-control", placeholder = "Adı" })
+            @Html.ValidationMessageFor(x => x.Employee.FirstName, "", new { @class = "text-danger" })<br />
+
+            <label class="mt-2 mb-2"><strong>Soyadı:</strong></label>
+            @Html.TextBoxFor(x => x.Employee.LastName, new { @class = "form-control", placeholder = "Soyadı" })
+            @Html.ValidationMessageFor(x => x.Employee.LastName, "", new { @class = "text-danger" })<br />
+
+            <label class="mt-2 mb-2"><strong>Telefon:</strong></label>
+            @Html.TextBoxFor(x => x.Employee.Phone, new { @class = "form-control", placeholder = "Telefon" })
+            @Html.ValidationMessageFor(x => x.Employee.Phone, "", new { @class = "text-danger" })<br />
+
+            <label class="mt-2 mb-2"><strong>Doğum Tarihi:</strong></label>
+            @Html.TextBoxFor(x => x.Employee.BirthDate, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+
+            <label class="mt-2 mb-2"><strong>Departman:</strong></label>
+            @Html.DropDownListFor(x => x.Employee.DepartmentID, Model.Departments, "Bir departman seçin", new { @class = "form-control" })
+
+            <label class="mt-2 mb-2"><strong>Yönetici:</strong></label>
+            @Html.DropDownListFor(x => x.Employee.ReportsToID, Model.Employees, "Kendisi", new { @class = "form-control" })
+            <br />
+            <label class="mt-2"><strong>Fotoğraf Yükle:</strong></label>
+            @Html.TextBoxFor(x => x.Photos, new { @class = "btn btn-secondary ml-1", type = "file", accept = "image/png, image/jpeg", multiple = "multiple" })
+            @Html.ValidationMessage("photoUpload", "", new { @class = "text-danger ml-3" })<br />
+
+            <br />
+            <input type="submit" class="btn btn-success mt-2" value="Kaydet" />
+            <a href="@Url.Action("Index","AdminEmployee")" class="btn btn-danger mt-2">İptal</a>
+        }
+    </div>
+</div>

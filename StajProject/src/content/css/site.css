@@ -1,0 +1,182 @@
+.navbar{
+	background-color: #fcfcfc;
+	text-align:center;
+}
+
+.navbar-list{
+	list-style-type:none;
+	padding:10px;
+	border:3px solid #77807a;
+	border-radius:10px;
+}
+
+.navbar-list li, .icons li{
+	display: inline;
+    margin: 10px;
+    position: relative;
+}
+
+.navbar-list a{
+	text-decoration:none;
+	color: black;
+	font-size:30px;
+	margin:10px;
+
+}
+.navbar-list a:hover{
+	background-color:red;
+	color:#fff;
+	border-radius:10px;
+	padding:5px;
+}
+	
+.page-content{
+	margin:0 200px 0 200px;	
+}
+
+.main{
+	text-align:center;
+}
+
+.myimage{
+	border-radius:10px;
+	float:left;
+	margin-top:20px;
+	margin-right:50px;
+	width:400px;
+	height:350px;
+}
+.aboutme{
+	text-align:left;
+	font-size:18px;
+}
+
+.icons{
+	list-style-type:none;
+	text-align:right;
+	margin-top:-75px;
+}
+.icons img{
+	width:100px;
+	height:100px;
+}
+.icons img:hover{
+	background:#77807a;
+	border-radius:10px;
+}
+.projects{
+	text-align:left;
+}
+
+.projects li{
+	font-size:20px;
+	display: inline;
+    margin-right: 10px;
+    position: relative;
+}
+.projects a{
+	text-decoration:none;
+	color:blue;
+}
+
+.projects a:hover{
+	color:red;
+}
+
+.footer{
+	background-color:#77807a;
+	text-align:center;
+	border-radius:10px;
+	color:#fff;
+	padding:5px;
+}
+
+.form-card{
+	background-color:#fcfcfc;
+	border-radius:10px;
+	padding:10px;
+	width:50%;
+	margin:auto;
+	border: 3px solid black;
+	
+}
+.form-card label,.form-card input, .form-card select{
+	font-size:18px;
+	border-radius:10px;
+
+}
+.form-card input, .form-card select{
+	border:1px solid grey;
+	padding:3px;
+}
+
+.form-card textarea{
+	resize:none;
+	border-radius:10px;
+	font-size:14px;
+}
+
+.submitbtn{
+	background-color:#28a745;
+	color:#fff;
+	padding:12px!important;
+	border-radius:10px;
+	border:none;
+	cursor:pointer;
+}
+
+.submitbtn:hover{
+	background-color:#218838;
+
+}
+
+.city-main{
+	font-size:18px;
+}
+
+.map-area{
+	margin-bottom:100px;
+}
+
+.map-image {
+	float:left;
+	margin:0 20px 20px 20px;
+	border-radius:10px;
+	box-shadow: 5px 10px;
+}
+.map-image-2 {
+	float:right;
+	margin:0 20px 20px 20px;
+	border-radius:10px;
+	box-shadow: 5px 10px;
+}
+
+.table-city, .table-city tr,th,td{
+	border:2px solid grey;
+}
+
+.lessonimage {
+  display: block;
+  margin-left: 25%;
+  margin-top: 20px;
+  width: 50%;
+}
+
+embed{
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.camptext{
+	float:right;
+	width:50%;
+	font-size:20px;
+	padding:10px;
+	border:5px solid;
+	border-image:linear-gradient(45deg,#f98d5f,#7fdbfd) 1;
+}
+
+.cargo-main{
+	text-align:center;
+	font-size:18px;
+}

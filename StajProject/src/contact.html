@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<title>Ana Sayfa</title>
+	<link rel="stylesheet" href="content/css/site.css">
+	<link rel="icon" href="content/images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+<div class="page-content">
+	<div class="navbar">
+		<ul class="navbar-list">
+			<li><a href="index.html">Ana Sayfa</a></li>
+			<li><a href="yozgat.html">Yozgat</a></li>
+			<li><a href="lesson.html">Ders</a></li>
+			<li><a href="expresscargo.html">ExpressCargo</a></li>
+			<li><a href="contact.html">İletişim</a></li>
+		</ul>
+	</div>
+	
+	<br/>
+	
+	<div class="main">
+	<div class="form-card">
+	<h1>İletişim Formu</h1>
+	<hr/>
+		<form action="#" method="post">
+			<label for="namesurnameinput">Ad Soyad:</label>
+			<input type="text" maxlength=50 placeholder="..." name="namesurname" id="namesurnameinput" required/>
+			
+			<br/><br/>
+			<label for="mailinput">E-Posta: </label>
+			<input type="email" placeholder="..." name="mail" id="mailinput" required/>
+			
+			<br/><br/>
+			<label for="subjectinput">Konu:</label>
+			<input type="text" maxlength=50 placeholder="..." name="subject" id="subjectinput" required/>
+			
+			<br/><br/>
+			<label for="messagearea">Mesaj:</label>
+			<textarea placeholder="..." name="message" id="messagearea" rows=4 cols=50></textarea>
+			
+			<br/><br/>
+			<label for="turinput">Tür:</label>
+			<input type="radio" id="turinput" name="tur" value="Öneri">
+  			<label for="tur">Öneri</label>
+ 			<input type="radio" id="sikayetinput" name="tur" value="Şikayet">
+ 			<label for="sikayetinput">Şikayet</label>
+				
+			<br/><br/>
+			<label for="cities">Şehir:</label>
+			<select id="cities" name="city">
+				<option value="İstanbul">İstanbul</option>
+				<option value="Ankara">Ankara</option>
+				<option value="İzmir">İzmir</option>
+				<option value="Diğer">Diğer</option>
+			</select>
+					
+			<br/><br/>
+			<input type="submit" value="Gönder" class="submitbtn">
+	
+		</form>
+	</div>	
+	</div>	
+		<br/>
+		<div class="footer">
+			<p>2022, Tarık Aydın. Bu proje Notepad++ ile hazırlanmıştır.</p>
+		</div>
+	</div>
+
+</body>
+</html>

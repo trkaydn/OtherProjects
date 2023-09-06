@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<title>Ana Sayfa</title>
+	<link rel="stylesheet" href="content/css/site.css">
+	<link rel="icon" href="content/images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+<div class="page-content">
+	<div class="navbar">
+		<ul class="navbar-list">
+			<li><a href="index.html">Ana Sayfa</a></li>
+			<li><a href="yozgat.html">Yozgat</a></li>
+			<li><a href="lesson.html">Ders</a></li>
+			<li><a href="expresscargo.html">ExpressCargo</a></li>
+			<li><a href="contact.html">İletişim</a></li>
+		</ul>
+	</div>
+	
+	<br/>
+	
+	<div class="cargo-main">
+		<h1>Express<span style="color:orange">Cargo</span></h1>
+		<hr/>
+		
+			<p>
+				ExpressCargo, Kodluyoruz K130 Ankara C# ile .Net Core Bootcamp bitirme projesi olarak Tarık Aydın tarafından Ekim 2021 tarihinde hazırlanmıştır.
+			</p>
+			<p>
+				Bu proje, Asp.Net Core 5.0 MVC ile geliştirilmiş bir kargo otomasyonudur. Projede <strong>EntityFramework, FluentValidation, AutoMapper</strong> kütüphaneleri kullanılmıştır.
+			</p>
+		
+			<img src="content/images/img1.gif" alt="ExpressCargo" width=1000 />
+		
+			<h3>Kullanım Senaryosu</h3>
+		
+			<p>
+				Kargo Şubeleri, şube adları ve şifreleri ile sisteme giriş yaparlar. Giriş yaptıktan sonra yeni kargo kabulü, var olan kargoların durumunu güncelleyebilme yetkilerine sahiptirler. Her yeni kargo girişinde 12 haneli random bir takip numarası oluşturulmaktadır. Kargoların güncellenme ise aşamaları tarih bilgisi ile birlikte veritabanına tek tek kaydedilmekte olup, geçilen bir aşamadan geriye dönük güncelleme mümkün değildir.
+			</p>
+			<p>
+				Her şube sadece göndericisi veya alıcısı olduğu kargolar üzerinde görüntüleme ve güncelleme yetkisine sahiptir. Tüm şubeler, iletişim sayfasından iletilen mesajları okuyabilir ve silebilir, buna ek olarak siteye yapılan yorumları onaylama ve silme, şifre değiştirme yetkilerine sahiptir.
+			</p>
+			<p>
+				Herkese açık arayüzde ise kullanıcılar kargo takip numaraları ile takip işlemlerini yapabilir, firmamıza yorum bırakabilir, iletişim formuyla bilgi edinebilirler.
+			</p>
+		
+			<img src="content/images/img2.gif" alt="ExpressCargo" width=1000 />
+
+			<h3>Teknik Detaylar</h3>
+
+			<p>
+				Bu proje Asp.Net Core 5.0 MVC ile 4 katmanlı mimari üzerine kurulmuştur. EntityLayer, DataAccessLayer, BusinessLayer ve PresentationLayer katmanlarından oluşmaktadır.
+			</p>
+			<p>
+				Veritabanı işlemleri için EntityFramework ile Code First yaklaşımı kullanılmıştır. Kullanıcıdan alınan tüm girdiler FluentValidation kütüphanesi ile validasyon kontrolünden geçmektedir.
+			</p>
+			<p>
+				View'larda entity kullanılmamıştır. Her view için ViewModel yazılmış olup bu ViewModeller AutoMapper kütüphanesi kullanılarak entitylere maplenmiştir.		
+			</p>
+			<p>
+				Kullanıcı şifreleri veritabanında SHA512 algoritması ile hashlenmiş olarak tutulmaktadır.
+			</p>
+			<p>
+				Runtime esnasında karşılaşılan hatalar Middleware yardımıyla veritabanına kayıt edilmektedir. Bu hatalar yönetici panelinde liste olarak görülebilmektir.
+			</p>
+			<p>
+				Frontend tarafında hazır template kullanılmış olup, ajax işlemleri için tarafımca birkaç script yazılmıştır.
+			</p>
+			
+			<a style="font-weight:bold;color:darkred;font-size:20px;text-decoration:none;" href="https://github.com/trkaydn/ExpressCargo">Projenin GitHub reposuna ulaşmak için tıklayın.</a>
+			
+			<br/><br/>
+			
+			<img src="content/images/img3.png" alt="ExpressCargo" width=1000 />
+			
+		<div class="footer">
+			<p>2022, Tarık Aydın. Bu proje Notepad++ ile hazırlanmıştır.</p>
+		</div>
+
+	</div>	
+</div>	
+</body>
+</html>

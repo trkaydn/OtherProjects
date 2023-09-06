@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Hata";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bir Hata Oluştu :(</h1>
+    <hr />
+    <h4>@TempData["ErrorMessage"]</h4>
+    <br />
+    <a class="btn btn-secondary" href="/Home/Index">Ana Sayfaya Dön</a>
+</div>
+

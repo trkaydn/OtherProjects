@@ -1,0 +1,16 @@
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\bin\Debug\kutuphaneProject.exe.config
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\bin\Debug\kutuphaneProject.exe
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\bin\Debug\kutuphaneProject.pdb
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.csproj.AssemblyReference.cache
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.Otomasyon.resources
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.Properties.Resources.resources
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.csproj.GenerateResource.cache
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.csproj.CoreCompileInputs.cache
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.exe
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.pdb
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.FrmAddBook.resources
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.FrmEditBook.resources
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.FrmAddPerson.resources
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.FrmEditPerson.resources
+C:\Users\tarik\OneDrive\Masaüstü\kutuphaneProject\obj\Debug\kutuphaneProject.FrmGiveBook.resources

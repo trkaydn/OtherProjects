@@ -1,0 +1,86 @@
+﻿@model Exam
+@{
+    ViewData["Title"] = "Sınav Çöz";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int i = 1;
+}
+
+<div class="card">
+    <div class="text-center">
+        <h1 class="display-4">@Model.Title</h1>
+    </div>
+    <p style="padding:10px">@Model.Text</p>
+</div>
+<br />
+<input type="hidden" id="ExamID" value="@Model.ExamID" />
+<div class="row">
+    @foreach (var question in Model.Questions)
+    {
+        <div class="col-6 mt-3 mb-3" id="questiondiv-@i">
+            <h5>@i) @question.QuestionText</h5>
+
+            <label id="label-@i-A"><input type="radio" name="answer-@question.QuestionID" value="A"> A) @question.AnswerA</label>
+            <br />
+            <label id="label-@i-B"><input type="radio" name="answer-@question.QuestionID" value="B"> B) @question.AnswerB</label>
+            <br />
+            <label id="label-@i-C"><input type="radio" name="answer-@question.QuestionID" value="C"> C) @question.AnswerC</label>
+            <br />
+            <label id="label-@i-D"><input type="radio" name="answer-@question.QuestionID" value="D"> D) @question.AnswerD</label>
+
+        </div>
+
+        i++;
+    }
+
+    <div id="divforresult" class="mb-3"></div>
+    <button class="btn btn-success btn-block" id="finishExam">Sınavı Tamamla</button>
+    <button class="btn btn-warning btn-block mt-2" id="refreshBtn">Tekrar Çöz</button>
+</div>
+
+<script src="~/lib/jquery/jquery.min.js"></script>
+<script>
+    $('#finishExam').on('click', function () {
+
+        //create array for ajax
+        var stringArray = new Array();
+        stringArray[0] = $("#ExamID").val();
+        stringArray[1] = $("#questiondiv-1 input[type='radio']:checked").val();
+        stringArray[2] = $("#questiondiv-2 input[type='radio']:checked").val();
+        stringArray[3] = $("#questiondiv-3 input[type='radio']:checked").val();
+        stringArray[4] = $("#questiondiv-4 input[type='radio']:checked").val();
+
+        $.ajax({
+            type: 'post',
+            url: '/TakeExam/GetResult/',
+            data: { 'answers': stringArray },
+            dataType: 'json',
+            success: function (data) {
+                var i = 1, trueCount = 0, falseCount = 0, emptyCount = 0;
+                $.each(data, function (index, value) {
+
+                    if (stringArray[i] == value) {
+                        $("#questiondiv-" + i + " > #label-" + i + "-" + value).css("background-color", "GreenYellow"); //true answer green css
+                        trueCount++;
+                    }
+                    else if (typeof(stringArray[i]) == "undefined") {
+                        $("#questiondiv-" + i + " > #label-" + i + "-" + value).css("background-color", "DarkOrange"); // empty answer orange css
+                        emptyCount++;
+                    }
+                    else {
+                        $("#questiondiv-" + i + " > #label-" + i + "-" + value).css("background-color", "GreenYellow");  //true answer green css
+                        $("#questiondiv-" + i + " > #label-" + i + "-" + stringArray[i]).css("background-color", "#dc3545"); //selected false answer red css
+                        falseCount++;
+                    }
+                    i++;
+                });
+
+                $('#divforresult').html("<br>Doğru Cevap Sayısı: " + trueCount + "<br>Yanlış Cevap Sayısı: " + falseCount + "<br>Boş Cevap Sayısı: " + emptyCount);
+            }
+        });
+        $(this).attr('disabled', 'disabled');
+    });
+
+    $('#refreshBtn').on('click', function () {
+        window.location.reload();
+    });
+</script>

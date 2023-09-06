@@ -1,0 +1,49 @@
+C:\Users\Tarık\source\repos\StickyNote\bin\Debug\StickyNote.exe.config
+C:\Users\Tarık\source\repos\StickyNote\bin\Debug\StickyNote.exe
+C:\Users\Tarık\source\repos\StickyNote\bin\Debug\StickyNote.pdb
+C:\Users\Tarık\source\repos\StickyNote\obj\Debug\StickyNote.csprojAssemblyReference.cache
+C:\Users\Tarık\source\repos\StickyNote\obj\Debug\StickyNote.Properties.Resources.resources
+C:\Users\Tarık\source\repos\StickyNote\obj\Debug\StickyNote.csproj.GenerateResource.cache
+C:\Users\Tarık\source\repos\StickyNote\obj\Debug\StickyNote.csproj.CoreCompileInputs.cache
+C:\Users\Tarık\source\repos\StickyNote\obj\Debug\StickyNote.exe
+C:\Users\Tarık\source\repos\StickyNote\obj\Debug\StickyNote.pdb
+C:\Users\Tarık\source\repos\StickyNote\obj\Debug\StickyNote.stickyNote.resources
+C:\Users\Tarık\source\repos\StickyNote\obj\Debug\StickyNote.Main.resources
+C:\Users\Tarık\source\repos\StickyNote\obj\Debug\StickyNote.settingsform.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\bin\Debug\StickyNote.exe.config
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\bin\Debug\StickyNote.exe
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\bin\Debug\StickyNote.pdb
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\obj\Debug\StickyNote.csprojAssemblyReference.cache
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\obj\Debug\StickyNote.settingsform.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\obj\Debug\StickyNote.stickyNote.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\obj\Debug\StickyNote.Main.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\obj\Debug\StickyNote.Properties.Resources.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\obj\Debug\StickyNote.csproj.GenerateResource.cache
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\obj\Debug\StickyNote.csproj.CoreCompileInputs.cache
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\obj\Debug\StickyNote.exe
+C:\Users\Tarık Aydın\Desktop\Projetcs\StickyNote\obj\Debug\StickyNote.pdb
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\bin\Debug\StickyNote.exe.config
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\bin\Debug\StickyNote.exe
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\bin\Debug\StickyNote.pdb
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\obj\Debug\StickyNote.csprojAssemblyReference.cache
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\obj\Debug\StickyNote.settingsform.resources
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\obj\Debug\StickyNote.StickyNote.resources
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\obj\Debug\StickyNote.Main.resources
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\obj\Debug\StickyNote.Properties.Resources.resources
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\obj\Debug\StickyNote.csproj.GenerateResource.cache
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\obj\Debug\StickyNote.csproj.CoreCompileInputs.cache
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\obj\Debug\StickyNote.exe
+C:\Users\Tarik Aydin\Desktop\Projects\StickyNote\obj\Debug\StickyNote.pdb
+D:\GitHubOldRepo\StickyNote\src\bin\Debug\StickyNote.exe.config
+D:\GitHubOldRepo\StickyNote\src\bin\Debug\StickyNote.exe
+D:\GitHubOldRepo\StickyNote\src\bin\Debug\StickyNote.pdb
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.csproj.AssemblyReference.cache
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.csproj.SuggestedBindingRedirects.cache
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.settingsform.resources
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.StickyNote.resources
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.Main.resources
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.Properties.Resources.resources
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.csproj.GenerateResource.cache
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.csproj.CoreCompileInputs.cache
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.exe
+D:\GitHubOldRepo\StickyNote\src\obj\Debug\StickyNote.pdb

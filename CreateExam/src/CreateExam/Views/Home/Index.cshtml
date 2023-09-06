@@ -1,0 +1,28 @@
+﻿@model List<Exam>
+@{
+    ViewData["Title"] = "Sınav Listesi";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Sınav Listesi</h1>
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Başlık</th>
+            <th>Tarih</th>
+            <th></th>
+        </tr>
+        <tbody>
+            @foreach (var exam in Model)
+            {
+                <tr>
+                    <td>@exam.ExamID</td>
+                    <td><a href="@Url.Action("Index","TakeExam",new {@id=exam.ExamID })">@Html.Raw(exam.Title)</a></td>
+                    <td>@exam.CreateDate.ToString("yyyy-MM-dd")</td>
+                    <td><a class="btn btn-danger text-white" href="/Home/DeleteExam/@exam.ExamID">Sil</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

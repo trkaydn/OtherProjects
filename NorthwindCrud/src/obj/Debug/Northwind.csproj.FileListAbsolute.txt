@@ -1,0 +1,21 @@
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\obj\Debug\Northwind.csprojAssemblyReference.cache
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\obj\Debug\Northwind.Form1.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\obj\Debug\Northwind.Properties.Resources.resources
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\obj\Debug\Northwind.csproj.GenerateResource.cache
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\obj\Debug\Northwind.csproj.CoreCompileInputs.cache
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\bin\Debug\Northwind.exe.config
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\bin\Debug\Northwind.exe
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\bin\Debug\Northwind.pdb
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\obj\Debug\Northwind.exe
+C:\Users\Tarık Aydın\Desktop\Projetcs\Northwind\obj\Debug\Northwind.pdb
+D:\Githubda Olmayan Projeler\Northwind\bin\Debug\Northwind.exe.config
+D:\Githubda Olmayan Projeler\Northwind\bin\Debug\Northwind.exe
+D:\Githubda Olmayan Projeler\Northwind\bin\Debug\Northwind.pdb
+D:\Githubda Olmayan Projeler\Northwind\obj\Debug\Northwind.csproj.AssemblyReference.cache
+D:\Githubda Olmayan Projeler\Northwind\obj\Debug\Northwind.csproj.SuggestedBindingRedirects.cache
+D:\Githubda Olmayan Projeler\Northwind\obj\Debug\Northwind.Form1.resources
+D:\Githubda Olmayan Projeler\Northwind\obj\Debug\Northwind.Properties.Resources.resources
+D:\Githubda Olmayan Projeler\Northwind\obj\Debug\Northwind.csproj.GenerateResource.cache
+D:\Githubda Olmayan Projeler\Northwind\obj\Debug\Northwind.csproj.CoreCompileInputs.cache
+D:\Githubda Olmayan Projeler\Northwind\obj\Debug\Northwind.exe
+D:\Githubda Olmayan Projeler\Northwind\obj\Debug\Northwind.pdb

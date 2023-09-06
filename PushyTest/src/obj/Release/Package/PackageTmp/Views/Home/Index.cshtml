@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+@*<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+
+
+</div>*@
+<button class="btn btn-primary" id="subs">BİLDİRİMLERİ AÇ</button>
+<button class="btn btn-primary" id="pushyat">BANA PUSHY ATAR MISIN?</button>
+<label>Cihazınızın kimliği: </label><input type="text" id="tokentext">
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+
+@*<script type="module" src="~/service-worker.js"></script>*@
+<script>
+
+</script>
+
+<script type="module">
+
+    //bu pushy kayıt metodunu onclick eventinde yapmamızı istemişler. document ready gibi eventlerde, tarayıcı engelleyebiliyormuş.
+    $('#subs').on('click', function () {
+
+        // Check if the user is registered
+        if (Pushy.isRegistered()) {
+            // Subscribe the user to a topic
+            //Pushy.subscribe('news').catch(function (err) {  //bu özel topic'lere göre kayıt olmaymış ama bizde buna gerek olmıcak kankam
+            //    // Handle subscription errors
+            //    console.error('Subscribe failed:', err);
+            //});
+            alert('zaten bültene kayıtlısın');
+            //return;
+        }
+
+
+        // Add an import if you installed from npm
+        //import Pushy from 'pushy-sdk-web';
+
+        // Register visitor's browser for push notifications
+        Pushy.register({ appId: '62da81bc5f4e0b0e138a511a' }).then(function (deviceToken) {
+            // Print device token to console
+            console.log('Pushy device token: ' + deviceToken);
+            $('#tokentext').val(deviceToken);
+            // Send the token to your backend server via an HTTP GET request
+            //fetch('https://your.api.hostname/register/device?token=' + deviceToken);
+
+            // Succeeded, optionally do something to alert the user
+        }).catch(function (err) {
+            // Handle registration errors
+            console.error(err);
+        });
+    });
+
+
+    $('#pushyat').on('click', function () {
+        $.ajax({
+            type:'post',
+            url: '/Home/SendSamplePush',
+            data: {
+                'devicetoken': $('#tokentext').val()
+            }
+        });
+    });
+</script>
+
