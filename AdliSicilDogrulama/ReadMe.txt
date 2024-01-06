@@ -1,4 +1,4 @@
-E-Devlet Belge Doğruluma sayfasına bağlanarak adli sicil belgelerini doğrulayan console uygulaması.
+E-Devlet Belge Doğrulama sayfasına bağlanarak adli sicil belgelerini doğrulayan console uygulaması.
 
 Selenium kütüphanesi kullanılarak geliştirilmiştir.
 
